@@ -75,7 +75,7 @@ BOARD_USE_CAF_LIBCAMERA := true
 
 # Try to build the kernel
 TARGET_KERNEL_CONFIG := lge_m3s-perf_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/m3s-ics
+TARGET_KERNEL_SOURCE := kernel/lge/m3s
 
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom
 BOARD_KERNEL_BASE := 0x00200000
